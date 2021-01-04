@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas ordenadas</h2>
+    <p>Podemos criar listas ordenadas usando a tag &lt;ol&gt;(ordered list) e dentro dela criar nossa lista com a tag &lt;li&gt;(list item), também podemos difinir o tipo dela com a classe "type" onde podemos inserir a ordem em números romanos passando o parametro "i", ordem alfabética passando o parametro "A" e etc.... Podemos definir o começo da lista passando o parametro de início na classe "start" </p>
+    <ol type="i" >
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Estudar</li>
+        <li>Almoçar</li>
+        <li>Treinar</li>
+        <li>Estudar mais</li>
+    </ol>
+
+    <h2>Listas não ordenadas</h2>
+    <p>Para fazer listas não ordenadas podemos usar a tag &lt;ul&gt;(unordered list) e dentro dela criar nossa lista com a tag &lt;li&gt;(list item) também podemos difinir o tipo dela com a classe "type" onde podemos passar o parametro "disc","square","circle"</p>
+    <ul type ="square">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Estudar</li>
+        <li>Almoçar</li>
+        <li>Treinar</li>
+        <li>Estudar mais</li>   
+    </ul>
+
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type ="a">
+            <li>Clipper</li>
+            <li>Java</li>
+        </ol>
+        <li>Novas</li>
+        <ol type ="a" start="3">
+            <li>Java</li>
+            <li>Python</li>
+        </ol>
+    </ol>
+
+    <h2>Meus videogames Favoritos</h2>
+    <ol>
+        <li>Playstation 2</li>
+            <ul type="disc">
+                <li>PES</li>
+                <li>God of War</li>
+            </ul>
+        
+        <li>Xbox one</li>
+            <ul type ="disc">
+                <li>FIFA</li>
+                    <ul type="circle">
+                        <li>FIFA 15</li>
+                        <li>FIFA 16</li>
+                    </ul>
+                <li>The Witcher 3</li>
+            </ul>
+               
+        <li>PC</li>
+            <ul type="disc">
+                <li>LOL</li>
+                <li>WOW</li>
+            </ul>    
+    </ol>
+
+    <h2>Lista de Definição</h2>
+    <p>
+        Para criarmos uma lista de definição utilizamos a tag &lt;dl&gt;(definition list) e então usamos a tag &lt;dt&gt;(termo) e a tag &lt;dd&gt;(definição)
+    </p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JAvaScript</dt>
+        <dd>Linguagem de programação para a criaação de interatividade de um site.</dd>
+    </dl>
+
+</body>
+</html>
